@@ -7,7 +7,6 @@ import Faq from "@/sections/Faq";
 import Hero from "@/sections/Hero";
 import Navbar from "@/sections/Navbar";
 import Quote from "@/sections/Quote";
-import Image from "next/image";
 
 export default function Home() {
   return (

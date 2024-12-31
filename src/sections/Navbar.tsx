@@ -3,7 +3,6 @@ import Image from 'next/image'
 import React, { useState } from 'react'
 import tedxrunLogo from '@/assets/tedxrun-logo.svg'
 import solaTicket from '@/assets/solar_ticket.svg'
-import rightArrow from '@/assets/rightArrow.svg'
 import Button from '@/components/Button';
 import { twMerge } from 'tailwind-merge'
 import { AnimatePresence } from 'framer-motion'
