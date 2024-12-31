@@ -1,5 +1,5 @@
-import { useScroll, useTransform } from "framer-motion";
-import { useEffect, useRef, useState } from "react";
+// import { useScroll, useTransform } from "framer-motion";
+// import { useEffect, useRef, useState } from "react";
 
 const Quote = () => {
     const text1 ="While talks from that first gathering in 1984 were available only to those who paid to be in the room..."
