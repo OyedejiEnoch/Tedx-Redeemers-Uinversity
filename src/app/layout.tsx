@@ -40,7 +40,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${montserrat.variable} font-serif antialiased bg-[#000000] text-white pb-[1000px]`}
+        className={`${montserrat.variable} font-serif antialiased bg-[#000000] text-white`}
       >
         {children}
       </body>

@@ -4,6 +4,7 @@ import Cta from "@/sections/Cta";
 import DateTicker from "@/sections/DateTicker";
 import Event from "@/sections/Event";
 import Faq from "@/sections/Faq";
+import Footer from "@/sections/Footer";
 import Hero from "@/sections/Hero";
 import Navbar from "@/sections/Navbar";
 import Quote from "@/sections/Quote";
@@ -20,6 +21,7 @@ export default function Home() {
       <Quote />
       <Cta />
       <Faq />
+      <Footer />
     </>
   );
 }

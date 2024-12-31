@@ -97,7 +97,7 @@ const AboutRun = () => {
                     <Image src={featureIcon2} alt='icon' className='bg-[#FF2020] text-white' />
                     <h2>Innovation</h2>
                 </div>
-                <p className='text-sm mt-2 max-w-[300px]'>Tedx Run main focal point would be on career talks, helping individuals navigate the modern, and digital job opportunites</p>
+                <p className='text-sm mt-2 max-w-[300px]'>Tedx is all about innovation, bringing bright the minds to life, allowing for change and advancements within our society </p>
             </motion.div>
 
             <motion.div
@@ -113,7 +113,7 @@ const AboutRun = () => {
                     <Image src={featureIcon3} alt='icon' className='bg-[#FF2020] text-white' />
                     <h2>Networking</h2>
                 </div>
-                <p className='text-sm mt-2 max-w-[300px]'>Tedx Run main focal point would be on career talks, helping individuals navigate the modern, and digital job opportunites</p>
+                <p className='text-sm mt-2 max-w-[300px]'>Tedx Run promises networking and connections amongst students, participants and all invited leaders across various industries at large</p>
             </motion.div>
 
 
