@@ -89,7 +89,7 @@ const Event = () => {
                     <Image src={featureIcon3} alt='icon' className='bg-[#FF2020] text-white'/>
                     <h2>Personal Devlopment</h2>
                 </div>
-                <p className='text-sm mt-2 max-w-[300px]'>Our second focal point would be on personal development, teaching individuals & participants the neccessity behind a better you and how import PropTypes from 'prop-types'
+                <p className='text-sm mt-2 max-w-[300px]'>Our second focal point would be on personal development, teaching individuals & participants the neccessity behind a better you and how import PropTypes from prop-types
                 can help shape our world today </p>
               </motion.div>
 
