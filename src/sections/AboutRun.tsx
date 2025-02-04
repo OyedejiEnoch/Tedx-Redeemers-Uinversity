@@ -78,9 +78,11 @@ const AboutRun = () => {
             >
                 <div className='flex items-center gap-2'>
                     <Image src={featureIcon1} alt='icon' className='bg-[#FF2020] text-white'/>
-                    <h2>Career Talks</h2>
+                    <h2>Inspiring Talks</h2>
                 </div>
-                <p className='text-sm mt-2 max-w-[300px]'>Tedx Run main focal point would be on career talks, helping individuals navigate the modern, and digital job opportunites</p>
+                <p className='text-sm mt-2 max-w-[300px]'>TedxRun talks showcasr innovative ideas, cutting edge research, and inspiring stories from experts in various fields.
+                  Speakers share their passions, experiences and insights, sparking thought-provoking discussions and debates.
+                </p>
             </motion.div>
 
 
@@ -95,9 +97,9 @@ const AboutRun = () => {
             >
                 <div className='flex items-center gap-2'>
                     <Image src={featureIcon2} alt='icon' className='bg-[#FF2020] text-white' />
-                    <h2>Innovation</h2>
+                    <h2>Immersive Experience</h2>
                 </div>
-                <p className='text-sm mt-2 max-w-[300px]'>Tedx is all about innovation, bringing bright the minds to life, allowing for change and advancements within our society </p>
+                <p className='text-sm mt-2 max-w-[300px]'>TedxRun incorporates interactive breakout sessions, storytelling, visuals and performance, creating an immersive experience for everyone</p>
             </motion.div>
 
             <motion.div
@@ -111,9 +113,11 @@ const AboutRun = () => {
             >
                 <div className='flex items-center gap-2'>
                     <Image src={featureIcon3} alt='icon' className='bg-[#FF2020] text-white' />
-                    <h2>Networking</h2>
+                    <h2>Networking Opportunities</h2>
                 </div>
-                <p className='text-sm mt-2 max-w-[300px]'>Tedx Run promises networking and connections amongst students, participants and all invited leaders across various industries at large</p>
+                <p className='text-sm mt-2 max-w-[300px]'>TedxRun brings together curious, open-minded, and enthusiastic individuals from diverse backgrounds.
+                  It serves as a platform to engage with speakers, ask questions and build connections.
+                </p>
             </motion.div>
 
 

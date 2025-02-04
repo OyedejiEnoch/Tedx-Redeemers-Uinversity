@@ -12,7 +12,7 @@ const Hero = () => {
         
         <div className="absolute inset-0 bg-black bg-opacity-90"></div>
         <motion.div className='container relative z-10'>
-            <p className='text-sm text-center'>Over 50+ student volunteers bringing this dream to reality </p>
+            <p className='text-sm text-center'>Over 50+ student and alumni&apos;s bringing this dream to reality </p>
             <motion.h2 
             initial={{
               opacity:0,
@@ -26,7 +26,7 @@ const Hero = () => {
               duration:0.8,
               ease:'easeInOut'
             }}
-            className='text-center text-5xl lg:text-7xl font-bold mt-6 leading-[55px]'>Redeemer&apos;s University Foremost TEDx Event</motion.h2>
+            className='text-center text-5xl lg:text-7xl font-bold mt-6 leading-[55px]'>Redeemer&apos;s University Maiden TEDx Event</motion.h2>
 
             <motion.div 
                initial={{

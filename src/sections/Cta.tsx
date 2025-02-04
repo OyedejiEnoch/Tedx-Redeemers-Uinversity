@@ -39,10 +39,10 @@ const Cta = () => {
             transitionDelay:'1.3s'
           }}
           className=' max-w-[600px]'>
-            <h2 className='font-bold text-4xl md:text-6xl '>Be Audious</h2>
-            <p className='text-2xl md:text-4xl mt-6'>Join the <span className='text-[#FF2020] font-semibold text-2xl'>TEDxRUN</span> Movment in 
+            <h2 className='font-bold text-4xl md:text-6xl '>Be Audacious</h2>
+            <p className='text-2xl md:text-4xl mt-6'>Join the <span className='text-[#FF2020] font-semibold text-2xl'>TEDxRUN</span> Movement in 
             <span className='font-semibold'> Redeemer&apos;s University </span></p>
-            <h2 className='text-2xl md:text-3xl max-w-[600px] mt-4'>Where like minds meet, interact, are educated to create a lasting impact in the society.</h2>
+            <h2 className='text-2xl md:text-3xl max-w-[600px] mt-4'>Where like minds meet, interact, and are educated to create a lasting impact in the society.</h2>
           </motion.div>
         </motion.div>
 

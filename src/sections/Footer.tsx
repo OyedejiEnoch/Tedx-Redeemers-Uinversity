@@ -1,5 +1,5 @@
 import React from 'react'
-import { Linkedin, TwitterIcon } from 'lucide-react'
+import { Instagram, Linkedin} from 'lucide-react'
 
 const Footer = () => {
   return (
@@ -7,7 +7,7 @@ const Footer = () => {
       <div className='container'>
         <hr />
         <div className='w-full flex flex-col md:flex-row justify-between'>
-            <h2 className='font-bold text-5xl mt-10'>TEDx</h2>
+            <h2 className='font-bold text-4xl mt-10'>TEDxRUN</h2>
 
 
             <div>
@@ -20,7 +20,7 @@ const Footer = () => {
                     </span>
                     <span>
                         
-                        <TwitterIcon />
+                        <Instagram />
                       
                     </span>
                 </div>
