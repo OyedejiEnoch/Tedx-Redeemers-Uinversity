@@ -36,7 +36,7 @@ const Event = () => {
                   transitionTimingFunction:'ease-in',
                   transitionDelay:'1.6s'
                 }}
-              className='max-w-[500px] mt-8 leading-7'>The Theme for the upcoming <span className='text-[#FF2020] font-semibold text-xl'>TEDxRUN</span> 2025
+              className='max-w-[500px] mt-8 leading-7 justify-start'>The Theme for the upcoming <span className='text-[#FF2020] font-semibold text-xl'>TEDxRUN</span> 2025
               is <span className='font-bold  '>UNCHARTED</span>.  It is aimed at driving creativity and innovation in the minds of all attendees through insightful talks by industry leaders
                which promises to be an outstanding event for the year 2025. We are inviting top creators in 
               major fields such as content creation, music, tech, business and so on, Lots of knowledge to be shared, connections to be made and an outstanding interaction amongst registered 
@@ -44,7 +44,7 @@ const Event = () => {
               </motion.p>
             </motion.div>
 
-            <motion.div className='flex flex-col gap-10'>
+            {/* <motion.div className='flex flex-col gap-10'>
                 <motion.div
                   style={{
                     opacity:isInView ? 1 :0,
@@ -93,7 +93,7 @@ const Event = () => {
                 can help shape our world today </p>
               </motion.div>
 
-            </motion.div>
+            </motion.div> */}
           </div>
         </div>
 
