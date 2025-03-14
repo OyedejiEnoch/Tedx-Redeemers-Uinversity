@@ -28,8 +28,8 @@ const montserrat = Montserrat({
 // });
 
 export const metadata: Metadata = {
-  title: "Tedx Run",
-  description: "The official site of Tedx Redeemers University",
+  title: "TEDXRUN",
+  description: "The official site of TEDx Redeemers University",
 };
 
 export default function RootLayout({
