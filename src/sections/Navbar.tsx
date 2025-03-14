@@ -8,7 +8,6 @@ import { twMerge } from 'tailwind-merge'
 import { AnimatePresence } from 'framer-motion'
 import {motion} from 'framer-motion'
 
-/* eslint-disable-next-line @typescript-eslint/no-unused-vars */
 const Navbar = () => {
 
     const navLinks = [
@@ -19,6 +18,7 @@ const Navbar = () => {
     ];
     const [isOpen, setIsOpen]=useState(false)
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
     const handleClickMobileNav =(e:any)=>{
       e.preventDefault();
       setIsOpen(false)
