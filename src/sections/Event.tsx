@@ -36,15 +36,15 @@ const Event = () => {
                   transitionTimingFunction:'ease-in',
                   transitionDelay:'1.6s'
                 }}
-              className='max-w-[500px] mt-8 leading-7 justify-start'>The Theme for the upcoming <span className='text-[#FF2020] font-semibold text-xl'>TEDxRUN</span> 2025
-              is <span className='font-bold  '>UNCHARTED</span>.  It is aimed at driving creativity and innovation in the minds of all attendees through insightful talks by industry leaders
-               which promises to be an outstanding event for the year 2025. We are inviting top creators in 
-              major fields such as content creation, music, tech, business and so on, Lots of knowledge to be shared, connections to be made and an outstanding interaction amongst registered 
+              className='max-w-[500px] mt-8 leading-7 justify-start'>The stage is set, and the countdown begins! <span className='text-[#FF2020] font-semibold text-xl'>TEDxRUN</span> 2025
+              is bringing you an electrifying lineup of industry leaders from diverse fields, including content creation, music, technology, business, and more to spark YOU  to challenge the status quo.        
+              This year&apos; theme, <span className='font-bold  '>UNCHARTED</span>, dares us to explore new frontiers in content creation, music, tech, business, and beyond. Get ready for groundbreaking insights,
+               powerful networking, and an unforgettable exchange of ideas that will leave you inspired and unstoppable.
               participants.
               </motion.p>
             </motion.div>
 
-            {/* <motion.div className='flex flex-col gap-10'>
+            <motion.div className='flex flex-col gap-10'>
                 <motion.div
                   style={{
                     opacity:isInView ? 1 :0,
@@ -55,10 +55,9 @@ const Event = () => {
                 >
                   <div className='flex items-center gap-2'>
                       <Image src={featureIcon1} alt='icon' className='bg-[#FF2020] text-white'/>
-                      <h2>Tech</h2>
+                      <h2>Uncharted Tech </h2>
                   </div>
-                  <p className='text-sm mt-2 max-w-[300px]'>At Tedx Run we would go in deep into the latest technolohical changes and advancements, the job opportunities in tech and how
-                    job can be gotten at various fields in tech
+                  <p className='text-sm mt-2 max-w-[300px]'>Get an exclusive deep dive into emerging job opportunities, and the skills you need to thrive in the evolving tech landscape.
                   </p>
                 </motion.div>
 
@@ -72,9 +71,9 @@ const Event = () => {
               >
                 <div className='flex items-center gap-2'>
                     <Image src={featureIcon2} alt='icon' className='bg-[#FF2020] text-white'/>
-                    <h2>Career Talks</h2>
+                    <h2> Uncharted Career Talks</h2>
                 </div>
-                <p className='text-sm mt-2 max-w-[300px]'>Tedx Run main focal point would be on career talks, helping individuals navigate the modern, and digital job opportunites</p>
+                <p className='text-sm mt-2 max-w-[300px]'>Navigate the future of work with insights from top professionals who will reveal the secrets to landing and excelling in today&apos;s digital job market.</p>
               </motion.div>
 
               <motion.div
@@ -87,13 +86,12 @@ const Event = () => {
               >
                 <div className='flex items-center gap-2'>
                     <Image src={featureIcon3} alt='icon' className='bg-[#FF2020] text-white'/>
-                    <h2>Personal Devlopment</h2>
+                    <h2>Uncharted Personal Development</h2>
                 </div>
-                <p className='text-sm mt-2 max-w-[300px]'>Our second focal point would be on personal development, teaching individuals & participants the neccessity behind a better you and how import PropTypes from prop-types
-                can help shape our world today </p>
+                <p className='text-sm mt-2 max-w-[300px]'>Upgrade your mindset, master productivity hacks, and unlock strategies for personal and professional success.</p>
               </motion.div>
 
-            </motion.div> */}
+            </motion.div>
           </div>
         </div>
 

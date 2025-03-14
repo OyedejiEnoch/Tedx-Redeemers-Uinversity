@@ -80,8 +80,8 @@ const AboutRun = () => {
                     <Image src={featureIcon1} alt='icon' className='bg-[#FF2020] text-white'/>
                     <h2>Inspiring Talks</h2>
                 </div>
-                <p className='text-sm mt-2 max-w-[300px]'>TedxRun talks showcasr innovative ideas, cutting edge research, and inspiring stories from experts in various fields.
-                  Speakers share their passions, experiences and insights, sparking thought-provoking discussions and debates.
+                <p className='text-sm mt-2 max-w-[300px]'>TEDxRUN talks showcase innovative ideas, cutting-edge research, and inspiring stories from experts across various 
+                  fields. Speakers share their passions, experiences, and insights, sparking thought-provoking discussions and debates.
                 </p>
             </motion.div>
 
@@ -99,7 +99,8 @@ const AboutRun = () => {
                     <Image src={featureIcon2} alt='icon' className='bg-[#FF2020] text-white' />
                     <h2>Immersive Experience</h2>
                 </div>
-                <p className='text-sm mt-2 max-w-[300px]'>TedxRun incorporates interactive breakout sessions, storytelling, visuals and performance, creating an immersive experience for everyone</p>
+                <p className='text-sm mt-2 max-w-[300px]'>TEDxRUN incorporates interactive breakout sessions, storytelling, visuals, and performances, 
+                  creating an engaging and immersive experience for all attendees.</p>
             </motion.div>
 
             <motion.div
@@ -115,8 +116,8 @@ const AboutRun = () => {
                     <Image src={featureIcon3} alt='icon' className='bg-[#FF2020] text-white' />
                     <h2>Networking Opportunities</h2>
                 </div>
-                <p className='text-sm mt-2 max-w-[300px]'>TedxRun brings together curious, open-minded, and enthusiastic individuals from diverse backgrounds.
-                  It serves as a platform to engage with speakers, ask questions and build connections.
+                <p className='text-sm mt-2 max-w-[300px]'>TEDxRUN brings together curious, open-minded, and enthusiastic individuals from diverse backgrounds. It serves as a platform to engage with speakers, 
+                  ask questions, and build meaningful connections.
                 </p>
             </motion.div>
 

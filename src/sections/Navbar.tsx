@@ -10,12 +10,26 @@ import {motion} from 'framer-motion'
 const Navbar = () => {
 
     const navLinks = [
-        { label: "Home", href: "#" },
-        { label: "Speakers", href: "#speakers" },
-        { label: "Faqs", href: "#faqs" },
-        { label: "Contact Us", href: "#contact us" },
+        { label: "HOME", href: "#" },
+        { label: "SPEAKERS", href: "#speakers" },
+        { label: "FAQ", href: "#faq" },
+        { label: "CONTACT US", href: "#contact-us" },
     ];
     const [isOpen, setIsOpen]=useState(false)
+
+    const handleClickMobileNav =(e:any)=>{
+      e.preventDefault();
+      setIsOpen(false)
+  
+      const url =new URL(e.currentTarget.href);
+      const hash =url.hash
+  
+      const target =document.querySelector(hash);
+  
+      if(!target) return;
+      target.scrollIntoView({behavior:'smooth'})
+  
+    }
 
   return (
     <>
@@ -30,7 +44,7 @@ const Navbar = () => {
             <div className='hidden lg:flex justify-center items-center'>
                 <nav className='flex items-center gap-6 font-medium'>
                     {navLinks.map((link)=>(
-                        <a key={link.label} href={link.href} className='text-white text-sm'>{link.label}</a>
+                        <a key={link.label} onClick={handleClickMobileNav} href={link.href} className='text-white text-sm'>{link.label}</a>
                     ))}
                 </nav>
             </div>

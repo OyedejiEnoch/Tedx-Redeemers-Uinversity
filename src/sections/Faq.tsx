@@ -38,7 +38,7 @@ const Faq = () => {
     const isInView = useInView(ref, { once: true })
 
   return (
-    <section ref={ref} className='py-24'>
+    <section ref={ref} id='faq' className='py-24'>
       <div className='container'>
         <motion.div 
          style={{

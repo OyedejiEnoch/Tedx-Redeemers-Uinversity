@@ -3,7 +3,7 @@ import { Instagram, Linkedin} from 'lucide-react'
 
 const Footer = () => {
   return (
-    <section className='py-24'>
+    <section id='contact-us' className='py-24'>
       <div className='container'>
         <hr />
         <div className='w-full flex flex-col md:flex-row justify-between'>

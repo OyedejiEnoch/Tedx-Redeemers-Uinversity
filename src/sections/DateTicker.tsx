@@ -38,11 +38,11 @@ const DateTicker = () => {
             <div key={i} className='flex items-center gap-8 font-medium text-xl group-hover:text-[#FF2020]'>
               <div className='flex items-center gap-2'>
                 <span className=" text-2xl">&#10038;</span>
-                <span>Anticipate</span>
+                <span>Big ideas. Bold conversations.</span>
               </div>
 
               <div>
-                <span>Redemeers University first Tedx Talk event comming soon</span>
+                <span>Redeemer&apos;s University&apos;s first TEDx Talk event is on the way!</span>
               </div>
             </div>
           ))}
