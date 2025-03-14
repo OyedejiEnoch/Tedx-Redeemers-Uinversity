@@ -7,6 +7,8 @@ import Button from '@/components/Button';
 import { twMerge } from 'tailwind-merge'
 import { AnimatePresence } from 'framer-motion'
 import {motion} from 'framer-motion'
+
+/* eslint-disable-next-line @typescript-eslint/no-unused-vars */
 const Navbar = () => {
 
     const navLinks = [

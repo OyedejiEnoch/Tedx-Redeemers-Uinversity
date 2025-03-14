@@ -59,7 +59,7 @@ const About = () => {
               }}
             className='mt-6 leading-7'>
               TED is a non-profit organization that believes powerful ideas, when powerfully presented, inspire action—moving us to feel, think differently, and take action.
-              TEDx is a grassroots initiative created in the spirit of TED&apos;s mission to research and share "ideas worth spreading." It brings the essence of TED to local communities worldwide through independently organized TEDx events.
+              TEDx is a grassroots initiative created in the spirit of TED&apos;s mission to research and share ideas worth spreading. It brings the essence of TED to local communities worldwide through independently organized TEDx events.
               These events are led by passionate individuals who seek to uncover new ideas, share groundbreaking research, and spark meaningful conversations in their communities. Featuring live speakers and recorded TED Talks, TEDx events operate under a free license granted by TED.
               Although TED does not control these events, organizers follow TED&apos;s format and guidelines on curation, speaker coaching, and event organization. With over 3,000 events held annually, TEDx continues to be a catalyst for inspiration, innovation, and global dialogue.
 
