@@ -12,7 +12,7 @@ const Hero = () => {
         
         <div className="absolute inset-0 bg-[#0d0d0d] bg-opacity-90"></div>
         <motion.div className='container relative z-10'>
-            <p className='text-sm text-center'>Over 50+ student volunteers and alumni&apos;s bringing this dream to life </p>
+            <p className='text-sm text-center'>Over 50+ student volunteers and alumni bringing this dream to life </p>
             <motion.h2 
             initial={{
               opacity:0,
