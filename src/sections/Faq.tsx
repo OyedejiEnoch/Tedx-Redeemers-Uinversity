@@ -1,34 +1,36 @@
 'use client'
 import React, { useState,useRef } from 'react'
 import { twMerge } from 'tailwind-merge';
-import { motion, useInView } from 'framer-motion'
+import { AnimatePresence, motion, useInView } from 'framer-motion'
 
 const Faq = () => {
+
+  const sponsorshipLink ='Tedxruninfo@gmail.com'
 
     const faqs = [
         {
             question: "What is TedxRUN",
-            answer: "Unlike traditional design tools, Layers prioritizes speed and simplicity without sacrificing power. Our intelligent interface adapts to your workflow, reducing clicks and keeping you in your creative flow.",
+            answer: "TEDxRUN is an independently organized TEDx event held at Redeemers University (RUN). It follows the spirit of TED's mission—Ideas Worth Spreading—by bringing together speakers and attendees to share innovative ideas, inspire change, and spark meaningful conversations.",
         },
         {
             question: "Is attendance virtual or in-person?",
-            answer: "Layers is designed to feel intuitive from day one. Most designers are productive within hours, not weeks. We also provide interactive tutorials and comprehensive documentation to help you get started.",
+            answer: "TEDxRUN is an in-person event, allowing attendees to engage directly with speakers, network with like-minded individuals, and fully experience the TEDx atmosphere.",
         },
         {
             question: "How can I prepare for the TEDx talk?",
-            answer: "Every change in Layers is automatically saved and versioned. You can review history, restore previous versions, and create named versions for important milestones.",
+            answer: "You can prepare by registering early, researching the speakers, and engaging with the TEDxRUN community. Bring essentials like a notebook and arrive on time for a great experience. Stay open-minded, network, and share insights from the event.",
         },
         {
             question: "How can my company get involved as a sponsor?",
-            answer: "Yes! Layers includes a robust offline mode. Changes sync automatically when you're back online, so you can keep working anywhere.",
+            answer:  `Companies can support TEDxRUN by becoming sponsors.  To explore sponsorship options, contact ${sponsorshipLink}`,
         },
         {
             question: "When is TEDxRUN happening?",
-            answer: "Layers is built for collaboration. You can invite team members to your projects, share feedback, and work together in real-time.",
+            answer: "The proposed date for TEDxRUN is April 26, 2025. Stay updated by following TEDxRUNs official channels or subscribing to notifications",
         },
         {
             question: "Who can attend TEDxRUN?",
-            answer: "Layers is built for collaboration. You can invite team members to your projects, share feedback, and work together in real-time.",
+            answer: "TEDxRUN is open to students, professionals, and anyone interested in thought-provoking ideas and innovative discussions. Seats may be limited, so early registration is recommended.",
         },
     ];
 
@@ -78,6 +80,27 @@ const Faq = () => {
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" 
                     className={twMerge("feather feather-plus flex-shrink-0 text-[#FF2020] transition duration-300", selectedIndex === faqIndex && 'rotate-45')}><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
                 </div>
+
+                <AnimatePresence>
+                        {selectedIndex === faqIndex && (
+                            <motion.div 
+                            initial={{
+                                height:0,
+                                marginTop:0
+                            }}
+                            animate={{
+                                height:'auto',
+                                marginTop:24
+                            }}
+                            exit={{
+                                height:0,
+                                marginTop:0
+                            }}
+                            className={twMerge("overflow-hidden")}>
+                                <p className="text-white/50">{faq.answer}</p>
+                            </motion.div>
+                        )}
+                    </AnimatePresence>
                 </div>
             ))}
         </motion.div>
