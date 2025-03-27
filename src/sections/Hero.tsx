@@ -10,7 +10,7 @@ const Hero = () => {
 
     <section id='hero' className='py-32 md:py-48 relative bg-cover bg-center bg-no-repeat h-screen overflow-x-clip' style={{backgroundImage:"url('/assets/tedImage1.jpg');"}}>
         
-        <div className="absolute inset-0 bg-[#0d0d0d] bg-opacity-90"></div>
+        <div className="absolute inset-0 bg-[#070707] bg-opacity-90"></div>
         <motion.div className='container relative z-10'>
             <p className='text-xs leading-5 md:text-sm text-center'>OVER 50+ STUDENT VOLUNTEERS AND ALUMNI BRINGING THIS DREAM TO LIFE </p>
             <motion.h2 

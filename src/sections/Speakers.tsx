@@ -32,7 +32,7 @@ const Speakers = () => {
         },
         {
           title: "DEBI JOHNSON",
-          details: "Deborah Johnson is a writer and performance artist, She is an alumni of UNICEF poetry mediathon, a winner of British council's new narratives challenge, a winner of the Doing things with Stories Global play off Contest by the university of Art, Netherlands and Oxfam. She has lent her art to VOICE X the US Embassy for the creation of learning vignettes on mental health, and has worked in radio as a voice actor creating stories that highlight the problems faced by Nigerian youth. ",
+          details: "Deborah Johnson is a writer and performance artist, She is an alumni of UNICEF poetry mediathon, a winner of British council's new narratives challenge, a winner of the Doing things with Stories Global play off Contest by the university of Art, Netherlands and Oxfam. ",
           src: "/assets/DEBI.JPEG",
         },
         {
