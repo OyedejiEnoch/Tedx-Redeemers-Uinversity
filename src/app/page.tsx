@@ -8,6 +8,7 @@ import Footer from "@/sections/Footer";
 import Hero from "@/sections/Hero";
 import Navbar from "@/sections/Navbar";
 import Quote from "@/sections/Quote";
+import Speakers from "@/sections/Speakers";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <AboutRun />
       <Event />
       <Quote />
+      <Speakers />
       <Cta />
       <Faq />
       <Footer />

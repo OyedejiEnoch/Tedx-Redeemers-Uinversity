@@ -15,9 +15,9 @@ const Footer = () => {
                     they get to attend exclusive events. Help support a better future and a brighter you.</p>
 
                 <div className='flex items-center mt-10 gap-4'>
-                    <span className=''>
+                    <a href='https://www.linkedin.com/company/tedxrun/' className=''>
                     <Linkedin />
-                    </span>
+                    </a>
                     <span>
                         
                         <Instagram />

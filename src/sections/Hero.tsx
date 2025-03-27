@@ -8,11 +8,11 @@ import { motion } from 'framer-motion'
 const Hero = () => {
   return (
 
-    <section className='py-32 md:py-48 relative bg-cover bg-center bg-no-repeat h-screen overflow-x-clip' style={{backgroundImage:"url('/assets/tedImage1.jpg');"}}>
+    <section id='hero' className='py-32 md:py-48 relative bg-cover bg-center bg-no-repeat h-screen overflow-x-clip' style={{backgroundImage:"url('/assets/tedImage1.jpg');"}}>
         
         <div className="absolute inset-0 bg-[#0d0d0d] bg-opacity-90"></div>
         <motion.div className='container relative z-10'>
-            <p className='text-sm text-center'>OVER 50+ STUDENT VOLUNTEERS AND ALUMNI BRINGING THIS DREAM TO LIFE </p>
+            <p className='text-xs leading-5 md:text-sm text-center'>OVER 50+ STUDENT VOLUNTEERS AND ALUMNI BRINGING THIS DREAM TO LIFE </p>
             <motion.h2 
             initial={{
               opacity:0,
@@ -43,8 +43,8 @@ const Hero = () => {
                 delay:1
               }}
             className='flex items-center justify-center gap-4 md:gap-6 mt-12 lg:mt-16 flex-col md:flex-row'>
-                <Button text='GET TICKETS' icon={solaTicket} bg />
-                <Button text='BECOME A SPONSOR' icon={rightArrow}  />
+                <Button href='https://legacy.tix.africa/tedxrun' text='GET TICKETS' icon={solaTicket} bg />
+                <Button href='' text='BECOME A SPONSOR' icon={rightArrow}  />
             </motion.div> 
         </motion.div>
 

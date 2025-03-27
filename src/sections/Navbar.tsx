@@ -11,7 +11,7 @@ import {motion} from 'framer-motion'
 const Navbar = () => {
 
     const navLinks = [
-        { label: "HOME", href: "#" },
+        { label: "HOME", href: "#hero" },
         { label: "SPEAKERS", href: "#speakers" },
         { label: "FAQ", href: "#faq" },
         { label: "CONTACT US", href: "#contact-us" },
@@ -52,7 +52,7 @@ const Navbar = () => {
             </div>
             
             <div className='hidden lg:flex'>
-            <Button text='GET TICKETS' icon={solaTicket} bg />
+            <Button href='https://legacy.tix.africa/tedxrun' text='GET TICKETS' icon={solaTicket} bg />
             {/* <Button text='BECOME A SPONSOR' icon={rightArrow}  /> */}
             </div>
             <div>
