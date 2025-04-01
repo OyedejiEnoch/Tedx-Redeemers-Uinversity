@@ -1,7 +1,7 @@
 'use client'
 import Image from 'next/image'
 import React, {useRef}  from 'react'
-import image1 from '@/assets/tedImage2.jpg'
+import image1 from '@/assets/tedImage3.jpg'
 import { motion, useInView } from 'framer-motion'
 
 const Cta = () => {

@@ -40,6 +40,11 @@ const Speakers = () => {
           details: "Precious Ibeh is a multifaceted professional dedicated to inspiring and empowering brands and individuals to reach their full potential. As a Brand Strategist, Public Speaker, Event Host, Content Creator, and Travel Connoisseur, he brings a wealth of expertise and a unique perspective to every project he undertakes.",
           src: "/assets/PRECIOUS.jpg",
         },
+        {
+          title: "CHIMEZIE IMO",
+          details: "Chimezie Imo is a Nigerian actor and producer from Imo state, Nigeria. He had featured in films and TV series such as Kasala, MTV Shuga, Kasanova, Eyimofe, Blood Covenant, Otiti, Breath of Life, Everybody Loves Jennifer and many others. He was honored with the trailblazer award for his great impact at the 2024 (AMVCA)",
+          src: "/assets/Chimezie.jpeg",
+        },
       ];
 
   return (
