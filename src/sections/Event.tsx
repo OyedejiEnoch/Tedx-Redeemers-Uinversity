@@ -37,9 +37,9 @@ const Event = () => {
                   transitionDelay:'1.6s'
                 }}
               className='max-w-[500px] mt-8 leading-7 justify-start'>The stage is set, and the countdown begins! <span className='text-[#FF2020] font-semibold text-xl'>TEDxRUN</span> 2025
-              is bringing you an electrifying lineup of industry leaders from diverse fields, including content creation, music, technology, business, and more to spark YOU  to challenge the status quo.        
-              This year theme, <span className='font-bold  '>UNCHARTED</span>, dares us to explore new frontiers in content creation, music, tech, business, and beyond. Get ready for groundbreaking insights,
-               powerful networking, and an unforgettable exchange of ideas that will leave you inspired and unstoppable.
+              is bringing you an electrifying lineup of industry leaders from diverse fields, including content creation, music, technology, business, and more to spark YOU to challenge the status quo.        
+              This year's theme, <span className='font-bold  '>UNCHARTED</span>, dares us to explore new frontiers in content creation, music, tech, business, and beyond. Get ready for groundbreaking insights,
+               powerful networking, and an unforgettable exchange of ideas that matter.
               participants.
               </motion.p>
             </motion.div>
